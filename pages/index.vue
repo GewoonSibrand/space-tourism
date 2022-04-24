@@ -3,7 +3,7 @@
     <div class="w-1/2">
       <span class="sub-h1">So, you want to travel to</span>
       <h1>Space</h1>
-      <p class="text-space-light-blue w-2/5 text-[18px]">
+      <p class="text-space-light-blue w-7/12 text-[18px]">
         Let's face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we'll give you a truly out of this world experience!
       </p>
     </div>
