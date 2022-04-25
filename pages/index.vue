@@ -10,7 +10,9 @@
     <div class="w-1/2">
       <div class="flex items-center justify-center h-[350px] w-[350px] rounded-full hover:bg-white/10 cursor-pointer">
         <div class="flex items-center justify-center bg-white h-[274px] w-[274px] rounded-full">
-          <h4 class="text-black">Explore</h4>
+          <NuxtLink to="/destination">
+            <h4 class="text-black">Explore</h4>
+          </NuxtLink> 
         </div>
       </div>
     </div>
