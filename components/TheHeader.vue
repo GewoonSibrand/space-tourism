@@ -1,5 +1,5 @@
 <template>
-  <div class="flex pl-[55px] mt-10 absolute items-center w-full h-24">
+  <div class="flex pl-[55px] items-center w-full h-24">
     <NuxtLink to="/" class="shrink-0">
       <img src="~/assets/img/logo.svg">
     </NuxtLink>

@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center items-center h-screen px-[165px] bg-cover bg-home-bg-desktop">
+  <div class="h-[calc(100%-7.5rem)] flex justify-center items-center px-[165px]">
     <div class="w-1/2">
       <span class="sub-h1">So, you want to travel to</span>
       <h1>Space</h1>
