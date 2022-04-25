@@ -14,7 +14,8 @@ module.exports = {
       },
       fontFamily: {
         sans: ['Bellefair', 'sans-serif'],
-        sub: ['Barlow Condensed', 'sans-serif']
+        sub: ['Barlow Condensed', 'sans-serif'],
+        body: ['Barlow', 'sans-serif']
       },
       backgroundImage: {
         'home-bg-desktop': "url(/assets/img/background-home-desktop.jpg)",
