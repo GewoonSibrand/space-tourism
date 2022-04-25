@@ -17,7 +17,8 @@ module.exports = {
         sub: ['Barlow Condensed', 'sans-serif']
       },
       backgroundImage: {
-        'home-bg-desktop': "url(/assets/img/background-home-desktop.jpg)"
+        'home-bg-desktop': "url(/assets/img/background-home-desktop.jpg)",
+        'destination-bg-desktop': "url(/assets/img/background-destination-desktop.jpg)"
       }
     },
   },
