@@ -14,10 +14,10 @@
     @apply text-[100px] text-white uppercase;
   }
   h3 {
-    @apply text-[56px] uppercase;
+    @apply text-[56px] text-white uppercase;
   }
   h4 {
-    @apply text-[32px] uppercase;
+    @apply text-[32px] text-white opacity-50 uppercase;
   }
   h5 {
     @apply font-sub text-[28px] uppercase tracking-[4.75px];

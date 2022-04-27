@@ -19,7 +19,8 @@ module.exports = {
       },
       backgroundImage: {
         'home-bg-desktop': "url(/assets/img/background-home-desktop.jpg)",
-        'destination-bg-desktop': "url(/assets/img/background-destination-desktop.jpg)"
+        'destination-bg-desktop': "url(/assets/img/background-destination-desktop.jpg)",
+        'crew-bg-desktop': "url(/assets/img/background-crew-desktop.jpg)"
       }
     },
   },

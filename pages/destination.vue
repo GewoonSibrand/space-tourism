@@ -1,9 +1,8 @@
 <template>
   <div class="grid grid-cols-2 h-[calc(100%-7.5rem)] px-[165px]">
-    <span class="sub-h1 col-span-2"><span>01</span>Pick your destination</span>
+    <span class="sub-h1 col-span-2 mt-14"><span class="opacity-25 mr-2">01</span>Pick your destination</span>
     <div class="col-span-1">
-      <img :src="planetSrc" 
->
+      <img :src="planetSrc">
     </div>
     <div class="col-span-1">
       <ul class="space-x-10 flex">
@@ -36,7 +35,8 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
+// Glob import
 import moon from '@/assets/img/moon.webp';
 import mars from '@/assets/img/mars.webp';
 import europa from '@/assets/img/europa.webp';

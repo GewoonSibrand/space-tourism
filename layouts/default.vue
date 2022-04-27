@@ -2,7 +2,8 @@
   <div 
     class="h-screen bg-cover pt-10 bg-home-bg-desktop"
     :class="{
-      'bg-destination-bg-desktop': route.name === 'destination'
+      'bg-destination-bg-desktop': route.name === 'destination',
+      'bg-crew-bg-desktop': route.name === 'crew'
     }">
     <TheHeader />
     <slot />
