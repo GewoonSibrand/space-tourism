@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-2 h-[calc(100%-7.5rem)] px-[165px]">
+  <div class="grid grid-cols-2 h-[calc(100%-6rem)] px-[165px]">
     <span class="sub-h1 col-span-2 mt-14"><span class="opacity-25 mr-2">01</span>Pick your destination</span>
     <div class="col-span-1">
       <img :src="planetSrc">

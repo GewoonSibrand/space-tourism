@@ -1,5 +1,5 @@
 <template>
-  <div class="h-[calc(100%-7.5rem)] flex justify-center items-center px-[165px]">
+  <div class="h-[calc(100%-6rem)] flex justify-center items-center px-[165px]">
     <div class="w-1/2">
       <span class="sub-h1">So, you want to travel to</span>
       <h1>Space</h1>
@@ -8,13 +8,13 @@
       </p>
     </div>
     <div class="w-1/2">
+    <NuxtLink to="/destination">
       <div class="flex items-center justify-center h-[350px] w-[350px] rounded-full hover:bg-white/10 cursor-pointer">
         <div class="flex items-center justify-center bg-white h-[274px] w-[274px] rounded-full">
-          <NuxtLink to="/destination">
             <h4 class="text-black">Explore</h4>
-          </NuxtLink> 
         </div>
       </div>
+    </NuxtLink>
     </div>
   </div>
 </template>
