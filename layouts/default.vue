@@ -1,6 +1,6 @@
 <template>
   <div 
-    class="h-screen bg-cover pt-10 bg-home-bg-desktop"
+    class="h-screen flex flex-col bg-cover pt-10 bg-home-bg-desktop overflow-auto"
     :class="{
       'bg-destination-bg-desktop': route.name === 'destination',
       'bg-crew-bg-desktop': route.name === 'crew'

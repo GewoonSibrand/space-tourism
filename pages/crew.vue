@@ -1,23 +1,24 @@
 <template>
-  <div class="grid grid-cols-2 h-[calc(100%-6rem)] px-[165px]">
-    <span class="sub-h1 col-span-2 mt-14"><span class="opacity-25 mr-2">02</span>Meet your crew</span>
-    <div class="col-span-1">
+  <div class="grid grid-cols-5 px-[165px]">
+    <span class="sub-h1 col-span-5 mt-14"><span class="opacity-25 mr-2">02</span>Meet your crew</span>
+    <div class="col-span-3 flex flex-col justify-center">
       <h4>{{ selectedCrewMember.title }}</h4>
       <h3>{{ selectedCrewMember.name }} </h3>
-      <p class="body-text">{{ selectedCrewMember.info }}</p>
-      <ul class="space-x-10 flex mt-40">
+      <p class="body-text  h-48">{{ selectedCrewMember.info }}</p>
+      <ul class="space-x-10 flex">
         <template v-for="(crewMember) in crewMembers" :key="crewMember.title">
 
           <li class="text-white uppercase hover:cursor-pointer" 
             @click="updateCrewMember(crewMember)"
           >
-            <div class="h-4 w-4 rounded-full bg-white/80 hover:bg-white" :class="{ 'bg-white':  selectedCrewMember.title === crewMember.title}"></div>
+            <div :class="{ 'bg-white':  selectedCrewMember.title === crewMember.title}" class="h-4 w-4 rounded-full bg-white/80 hover:bg-white">
+            </div>
           </li>
         </template>
       </ul>
     </div>
-    <div class="col-span-1">
-      <img class="h-full" :src="crewMemberSrc">
+    <div class="col-span-2">
+      <img class="" :src="crewMemberSrc">
     </div>
   </div>
 </template>
@@ -47,8 +48,8 @@ const crewMembers = {
   },
   tugce: {
     title: 'Flight Engineer',
-    name: 'Tugce Gunes',
-    info: 'Tugce Gunes is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space. ',
+    name: 'Anousheh',
+    info: 'Anousheh Gunes is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space. ',
   }
 }
 
